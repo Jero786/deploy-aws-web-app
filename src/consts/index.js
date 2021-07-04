@@ -8,4 +8,4 @@ const decorateWithAPIHost = (url) => `${API_URL}/api/${url}`;
 export const URL_API_USERS = decorateWithAPIHost('users');
 
 // Message error
-export const MESSAGE_ERROR_API_USERS = 'Something went wrong to fetch API';
+export const MESSAGE_ERROR_API_USERS = 'Something went wrong to fetch API.';
