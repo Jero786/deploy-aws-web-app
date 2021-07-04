@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-
+import VERSION  from '../package.json'
 import {useGetUsers} from "./hooks/useGetUsers";
 import {Loading} from './components/Loading';
 

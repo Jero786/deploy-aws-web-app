@@ -1,5 +1,5 @@
 // Env variables
-const API_URL = process.env.API_URL || 'http://localhost:3001';
+const API_URL = process.env.API_URL || 'http://node-env.eba-uszux3ip.us-east-1.elasticbeanstalk.com/';
 
 // Utils
 const decorateWithAPIHost = (url) => `${API_URL}/api/${url}`;
